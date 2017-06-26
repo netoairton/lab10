@@ -3,7 +3,7 @@
  * @brief	Declaracao da classe Pilha e seus metodos
  * @author	Airton Neto(netoairton@yahoo.com.br)
  * @since	09/05/2017
- * @date	14/05/2017
+ * @date	26/06/2017
  */
  
 #ifndef PILHA_H

@@ -1,3 +1,10 @@
+/**
+ * @file	fila.h
+ * @brief	Declaracao da classe fila e seus metodos
+ * @author	Airton Neto(netoairton@yahoo.com.br)
+ * @since	09/05/2017
+ * @date	25/06/2017
+ */
 #ifndef FILA_H
 #define FILA_H
 
@@ -29,7 +36,9 @@ Fila<T>::Fila(int t){
 
 template <typename T>
 int Fila<T>::push(T el){
+    //Possível erro: Se a pilha estiver cheia não pode inserir elementos
     if(tamanho==maximo){
+        cout<<"Pilha cheia, nao e possivel mais inserir"<<endl;
         return tamanho;
     }
     fila[tamanho]=el;
@@ -38,7 +47,9 @@ int Fila<T>::push(T el){
 
 template <typename T>
 T Fila<T>::pop(){
+    //Possível erro: Se a pilha estiver vazia não pode imprimir elementos
     if(tamanho==0){
+        cout<<"Pilha vazia, nao e possivel mais retirar"<<endl;
         return tamanho;
     }
     --tamanho;

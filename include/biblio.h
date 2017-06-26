@@ -1,3 +1,10 @@
+/**
+ * @file	fila.h
+ * @brief	Declaracao da classe fila e seus metodos
+ * @author	Airton Neto(netoairton@yahoo.com.br)
+ * @since	19/06/2017
+ * @date	25/06/2017
+ */
 #ifndef BUSCA_H
 #define BUSCA_H
 

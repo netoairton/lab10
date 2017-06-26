@@ -1,10 +1,13 @@
 /**
- * @file	main.cpp
- * @brief	Implementacao do main
+ * @file	lista.cpp
+ * @brief	Junção dos headers para criação de bibliotecas
  * @author	Airton Neto(netoairton@yahoo.com.br)
- * @since	12/05/2017
- * @date	18/05/2017
+ * @since	20/06/2017
+ * @date	25/06/2017
  * @sa		lista.h
+ * @sa		pilha.h
+ * @sa      biblio.h
+ * @sa      fila.h
  */
 #include<iostream>
 using std::cout;
